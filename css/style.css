@@ -1,0 +1,229 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Raleway', sans-serif;
+  }
+#main {
+
+}
+
+.education-entry,
+.work-entry,
+.project-entry {
+/*  padding-left: 5%;
+  padding-right: 5%;*/
+  display: inline-block;
+  text-align: center;
+}
+
+h1 {
+
+  font-size: 40px;
+  line-height: 48px;
+  display: inline;
+  font-weight: 200;
+}
+
+h2 {
+  font-size: 30px;
+  color: #191919;
+  line-height: 29px;
+  padding: 10px;
+  font-weight: 200;
+  text-align: center;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 20px;
+  color: #000000;
+  line-height: 22px;
+}
+
+h4 {
+  font-style: bold;
+  font-size: 14px;
+  color: #4A4A4A;
+  line-height: 17px;
+}
+
+h2, h3, h4, h5 {
+  padding:10px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+#top {
+  background: url('udacity1resp2.png');
+  background-size: cover;
+  text-align: right;
+  padding: 15px;
+}
+#projects {
+  border-left: #eee solid 1px;
+  text-align: center;
+}
+.education-entry a {
+  font-weight: 600;
+  color: #000;
+
+}
+
+nav {
+  border-bottom: 1px solid #000;
+}
+nav li {
+  display: inline;
+  padding: 15px;
+}
+nav li a {
+  color: #000;
+}
+.date-text {
+}
+
+.location-text {
+
+}
+
+
+p {
+  font-size: 14px;
+  color: #333333;
+  line-height: 21px;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+
+
+.welcome-message {
+  font-style: italic;
+  font-size: 18px;
+  color: #F3F3F3;
+  line-height: 28px;
+}
+
+#skillsH3 {
+  display: none;
+}
+
+#skills {
+  display: none;
+}
+
+.white-text {
+  color: #FFFFFF;
+}
+
+.gray {
+  background-color: #f2f2f2;
+  padding-bottom: 10px;
+}
+
+.dark-gray {
+  background-color: #4A4A4A;
+}
+
+/* TODO: Replace with image later */
+#header {
+  color: #666;
+  height: 50vh;
+}
+#about {
+  text-align: center;
+}
+.flex-box {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.center-content {
+  padding: 5%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+.biopic {
+  padding: 10px;
+  width: 100px;
+  display: none;
+}
+
+.aboutpic {
+  width: 150px;
+}
+
+img {
+  padding: 5px;
+}
+
+
+/* Bar chart stuff */
+.chart div {
+  font: 10px sans-serif;
+  background-color: #4A4A4A;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  height: 12px;
+  color: white;
+  display: inline-block;
+}
+
+span {
+  padding: 5px;
+}
+
+#letsConnect {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  #letsConnect {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (max-width:900px) {
+  .biopic {
+    width: 175px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #letsConnect {
+    margin-top: 10%;
+  }
+  .biopic {
+    width: 150px;
+  }
+  .welcome-message {
+    display: none;
+  }
+}
+
+#map {
+  display: flex;
+  height: 100%;
+}
+
+#mapDiv {
+  height: 400px;
+  padding-bottom: 5%;
+}
+
+@media only screen and (min-width: 750px) {
+  #skillsH3,
+  #skills,
+  .biopic {
+    display: block;
+  }
+}
